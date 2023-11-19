@@ -1,0 +1,127 @@
+/* Общие стили для всего документа */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Стили для контейнера страницы */
+.page-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Стили для обертки страницы */
+.content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Стили для верхней части страницы (шапка) */
+.hero-section {
+    background-color: #007bff;
+    padding: 50px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 0 0;
+}
+
+/* Стили для изображения в контейнере */
+.page-container img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+/* Стили для блока с персональной информацией */
+.personal-details {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+}
+
+/* Стили для профессионального заголовка */
+.profession {
+    font-size: 1.2em;
+    color: #ffeb3b;
+}
+
+/* Стили для левой панели страницы */
+.left-panel {
+    float: left;
+    width: 30%;
+    background-color: #007bff;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #fff;
+    border-radius: 0 0 0 10px;
+}
+
+/* Стили для правой панели страницы */
+.right-panel {
+    float: left;
+    width: 70%;
+    background-color: #fff;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 0 0 10px 0;
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+
+h2 {
+    color: #333;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+/* Стили для облака навыков */
+.creative-skills .skills-cloud {
+    margin-top: 10px;
+}
+
+/* Стили для отдельного навыка */
+.creative-skills .skill {
+    display: inline-block;
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* Стили для блока образования и языка */
+.educational-background,
+.language-skills {
+    font-style: italic;
+}
